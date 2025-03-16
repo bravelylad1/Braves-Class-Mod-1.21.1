@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bravesclassmod:item/sculk_controller_chip"
+  }
+}
