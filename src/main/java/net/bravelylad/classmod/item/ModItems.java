@@ -14,6 +14,9 @@ public class ModItems {
         public static final RegistryObject<Item> SCULK_CONTROLLER_CHIP = ITEMS.register("sculk_controller_chip",
                 () -> new Item(new Item.Properties()));
 
+        public static final RegistryObject<Item> TEST_SHARD = ITEMS.register("test_shard",
+                () -> new Item(new Item.Properties()));
+
         public  static void register(IEventBus eventBus) {
             ITEMS.register(eventBus);
         }

@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.bravesclassmod.test_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.TEST_BLOCK.get());
+                        output.accept(ModItems.TEST_SHARD.get());
 
                     }).build());
 
