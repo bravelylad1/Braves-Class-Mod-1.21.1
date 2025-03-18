@@ -5,5 +5,8 @@
   "block.bravesclassmod.test_block": "Test Block",
 
   "creativetab.bravesclassmod.class_ingredients": "Class Ingredients",
-  "creativetab.bravesclassmod.test_items": "Test Items"
+  "creativetab.bravesclassmod.test_items": "Test Items",
+
+  "tooltip.bravesclassmod.sculk_controller_chip.tooltip1": "The Sculk Core of a §9Warden§r.",
+  "tooltip.bravesclassmod.sculk_controller_chip.tooltip2": "It Seems to Have §cTelecommunicative Abilities"
 }
