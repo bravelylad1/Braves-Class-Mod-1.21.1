@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_test_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bravesclassmod:test_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bravesclassmod:test_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_test_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bravesclassmod:test_block"
+    ]
+  }
+}

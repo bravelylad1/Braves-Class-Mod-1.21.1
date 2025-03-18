@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bravesclassmod:block/test_block"
+    }
+  }
+}
