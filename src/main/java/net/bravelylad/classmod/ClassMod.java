@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.bravelylad.classmod.block.ModBlocks;
 import net.bravelylad.classmod.item.ModCreativeModeTabs;
 import net.bravelylad.classmod.item.ModItems;
+import net.bravelylad.classmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -39,6 +40,8 @@ public class ClassMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

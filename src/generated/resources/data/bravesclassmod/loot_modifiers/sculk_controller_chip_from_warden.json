@@ -1,0 +1,10 @@
+{
+  "type": "bravesclassmod:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/warden"
+    }
+  ],
+  "item": "bravesclassmod:sculk_controller_chip"
+}
